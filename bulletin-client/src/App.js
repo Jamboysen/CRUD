@@ -4,6 +4,7 @@ import AnnouncementForm from './components/AnnouncementForm';
 import AnnouncementList from './components/AnnouncementList';
 import Login from './components/Login';
 import Register from './components/Register';
+import AddUser from './components/admin/add-user'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/create" element={<AnnouncementForm />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/add-user" element={<AddUser />} />
         </Routes>
       </div>
     </Router>
