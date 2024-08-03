@@ -16,9 +16,9 @@ const AddUser = () =>  {
         //     console.log(res)
         // })
 
-        fetch('http://localhost:4000/users').then((res) =>  {
-            console.log(res)
-        })
+        // fetch('http://localhost:4000/users').then((res) =>  {
+        //     console.log(res)
+        // })
     }
 
     function handleTextareaChange(e, targetType) {
